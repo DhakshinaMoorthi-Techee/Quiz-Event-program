@@ -56,13 +56,17 @@ console.log("Hiii " + chalk.blue.bold(userName) + ", You are kindly Welcomed by"
 function quiz(question, Answer){
 var userAnswer = readlinesync.question(question);
   if(userAnswer == Answer){
- console.log(chalk.green("you are correct"));
+ console.log(chalk.green("you are correct")
+ );
+ console.log("---------------");
 score = score + 1;
 }
 else{
 console.log(chalk.red("you are incorrect"));
+console.log("---------------");
 }
 console.log("your score:" + score);
+console.log("-----------------------------------");
 }
 
 function play(){

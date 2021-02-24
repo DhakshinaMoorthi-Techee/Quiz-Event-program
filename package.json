@@ -1,0 +1,24 @@
+{
+  "name": "Quiz-Event-program",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhakshu11199/Quiz-Event-program.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dhakshu11199/Quiz-Event-program/issues"
+  },
+  "homepage": "https://github.com/dhakshu11199/Quiz-Event-program#readme",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "readline-sync": "^1.4.10"
+  }
+}
